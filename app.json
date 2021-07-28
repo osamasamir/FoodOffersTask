@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Food Offers",
+    "slug": "foodoffers",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/appicon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/launch_image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/appicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": ["ACCESS_BACKGROUND_LOCATION"],
+      "package": "com.mag.inmyway",
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyAG_3zyh2rRSMpN5Tnwjv7ukQxYFGWn3GA"
+        }
+                  ,
+        "googleSignIn":{
+          "apiKey":"AIzaSyAG_3zyh2rRSMpN5Tnwjv7ukQxYFGWn3GA",
+          "certificateHash":"QG9zYW1hc2FtaXIvZm9vZG9mZmVycw=="
+        }
+      },
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}

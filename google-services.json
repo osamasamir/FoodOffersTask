@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169417586670",
+    "project_id": "food-offers-cc924",
+    "storage_bucket": "food-offers-cc924.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169417586670:android:825e62c9b005e7f7ae80ff",
+        "android_client_info": {
+          "package_name": "com.mag.inmyway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169417586670-ontnnt05fr59q46u6j8j0ed0ciakgiim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwErtRpVEqK8rCaZwIHSQHy40NGdzo0aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169417586670-ontnnt05fr59q46u6j8j0ed0ciakgiim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
